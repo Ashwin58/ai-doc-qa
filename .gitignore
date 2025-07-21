@@ -1,0 +1,28 @@
+# Python virtual environment
+venv/
+
+# Backend specific ignores
+backend/.env
+backend/__pycache__/
+backend/*.pyc
+backend/storage/ # Llama Index generated index files
+
+# Frontend specific ignores
+frontend/node_modules/
+frontend/build/ # React build output directory
+frontend/.env.local # Local environment variables for React (if created)
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.iml
